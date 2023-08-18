@@ -1,50 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
 
-  30-day, hassle-free money back guarantee
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="segment1">
+        <div class="segment1foreground">
+          <div class="seg1part1">
+            <p style="margin: 0">Join our community</p>
+          </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+          <div class="seg1part2">
+            <p style="margin-top: 0.5rem">
+              30-day, hassle-free money back guarantee
+            </p>
+          </div>
 
-  Monthly Subscription
+          <div class="seg1part3">
+            <p style="margin: 0">
+              Gain access to our full library of tutorials along with expert
+              code reviews.
+              Perfect for any developers who are serious about honing their
+              skills.
+            </p>
+          </div>
+        </div>
+      </div>
 
-  &dollar;29 per month
+      <div class="segment2">
+        <div class="segment2foreground">
+          <div class="seg2part1">
+            <p style="margin: 0">Monthly Subscription</p>
+          </div>
 
-  Full access for less than &dollar;1 a day
+          <div class="seg2part2">
+            <p
+              style="
+                margin: auto;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                font-size: 2rem;
+              "
+            >
+              &dollar;29
+            </p>
+            <p
+              style="
+                margin: auto;
+                margin-left: 0.75rem;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                color: hsl(204, 43%, 93%);
+                font-weight: 400;
+                font-size: 1rem;
+              "
+            >
+              per month
+            </p>
+          </div>
 
-  Sign Up
+          <div class="seg2part3">
+            <p style="color: white; margin: 0;font-size: 0.9rem;">
+              Full access for less than &dollar;1 a day
+            </p>
+          </div>
 
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+          <div class="seg2part4">
+            <button class="signUp">
+              <p style="margin: auto; font-weight: 600; font-size: 1rem">
+                Sign Up
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="segment3">
+        <div class="segment3foreground">
+          <div class="seg3part1"><p style="color:white">Why Us</p></div>
+          <div class="seg3part2">
+            <p class="text3">Tutorials by industry experts</p>
+            <p class="text3">Peer &amp; expert code review</p>
+            <p class="text3">Coding exercises</p>
+            <p class="text3">Access to our GitHub repos</p>
+            <p class="text3">Community forum</p>
+            <p class="text3">Flashcard decks</p>
+            <p class="text3">New videos every week</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution" style="width:50%;margin:auto;margin-top:1rem">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Chitac Alexandru-Constantin</a>.
+      </p>
+    </footer>
+  </body>
 </html>
